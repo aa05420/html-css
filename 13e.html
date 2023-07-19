@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            13e
+        </title>
+        <style>
+            p{
+                font-family: Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            
+            }
+            .inbox{
+                display:flex;
+                flex-direction: column;
+                box-shadow: 0 0 10px rgba(0,0,0,0.3);
+                margin-bottom: 20px;
+                width: 400px;
+            }
+            .message{
+                display: flex;
+                flex-direction: row;
+                align-items: top;
+                margin-top: 13px;
+                margin-left: 20px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                width: 350px;
+                margin-right: 15px;
+            }
+            .pic{
+                width:60px;
+                height:60px;
+                border-radius: 30px;
+            }
+            .row{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width:280px
+            }
+            .content{
+                margin-left: 15px;
+            }
+            .folder{
+                margin-left: 20px;
+                margin-top:10px;
+                font-size: 12px;
+                color: grey;
+            
+            }
+            .name{
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+            .subject{
+                font-weight: bold;
+                font-size: 15px;
+                margin-bottom: 2px;
+            }
+            .text{
+                color: gray;
+                font-size: 13px;
+            }
+            .time{
+                color: grey;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="inbox">
+            <p class="folder">
+                ALL INBOXES
+            </p>
+            <div class="message">
+                <img class="pic"src="pictures-exercise/cat1.jpg">
+                <div class="content">
+                    <div class="row">
+                        <p class="name"> Chewy Promotions</p>
+                        <p class="time">4:58 PM</p>
+                    </div>
+                    
+                    <p class="subject"> Biggest sales of the year!</p>
+                    <p class="text"> Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+            <div class="message">
+                <img class="pic"src="pictures-exercise/cat2.jpg">
+                <div class="content">
+                    <div class="row">
+                        <p class="name"> Best Buy</p>
+                        <p class="time">12:32 PM</p>
+                    </div>
+                    
+                    <p class="subject"> Your Best Buy eReceipt</p>
+                    <p class="text"> Thank you for shopping at Best Buy, here is..</p>
+                </div>
+            </div>
+            <div class="message">
+                <img class="pic"src="pictures-exercise/cat3.jpg">
+                <div class="content">
+                    <div class="row">
+                        <p class="name"> Netflix</p>
+                        <p class="time">9:00 AM</p>
+                    </div>
+                    
+                    <p class="subject"> Here's what's coming to Netflix</p>
+                    <p class="text"> Brand new movies and shows, old favorites...</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

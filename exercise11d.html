@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 11d
+        </title>
+        <style>
+            .p{
+        margin-top: 0;
+        margin-bottom:0;
+        
+    }
+    .AddFriend{
+        margin-top: 4px;
+        background-color: rgb(43, 123, 242);
+        color:white;
+        border-radius: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border:none;
+        margin-left:5px;
+    }
+    .mutuals{
+        color:grey;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left:5px;
+    }
+    .name{
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 5px;
+        margin-left:5px;
+    }
+    .profile{
+        width:200px;
+        height:340px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        vertical-align: top;
+        margin-right: 15px;
+    }
+    .pic{
+        width:200px;
+        height:240px;
+        object-fit: cover;
+    }
+    .friend-pic{
+        border-radius: 14px;
+        width:28px;
+        height:28px;
+        margin-left:5px;
+        margin-right:2px;
+        object-fit:fill;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .mutuals{
+        
+        object-fit: contain;
+        margin-left: 0;
+    }
+    .friends-row{
+        margin-top: 5px;
+        margin-bottom: 4px;
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        column-gap: 4px;
+    }
+        </style>
+    </head>
+    <body>
+        <div style="display: grid; grid-template-columns: 200px 200px 200px; column-gap:20px; align-items: center;
+        ">
+            <div class="profile">
+                <div class="image">
+                    <img class="pic" src="pictures-exercise/cat1.jpg">
+                </div>
+            
+                <div>
+                    <p class="name"> Oliver </p>
+            
+                    
+                    <div class="friends-row" >
+                        <img class="friend-pic" src="pictures-exercise/dog.jpg">
+                        <p class="mutuals"> 2 mutual friends </p>
+                    </div>
+                
+                    <button class="AddFriend"> 
+                        Add Friend
+                    </button>
+                    
+                </div>
+            </div>
+            <div class="profile">
+                <div class="image">
+                    <img class="pic" src="pictures-exercise/cat2.jpg">
+                </div>
+            
+                <div>
+                    <p class="name"> Rex </p>
+            
+                    
+                    <div class="friends-row">
+                        <img class="friend-pic" src="pictures-exercise/dog.jpg">
+                        <p class="mutuals"> 4 mutual friends </p>
+                    </div>
+                
+                    <button class="AddFriend"> 
+                        Add Friend
+                    </button>
+                    
+                </div>
+            </div>
+            <div class="profile">
+                <div class="image">
+                    <img class="pic" src="pictures-exercise/cat3.jpg">
+                </div>
+            
+                <div>
+                    <p class="name"> Mimi </p>
+            
+                    
+                    <div class="friends-row">
+                        <img class="friend-pic" src="pictures-exercise/dog.jpg">
+                        <p class="mutuals"> 3 mutual friends </p>
+                    </div>
+                
+                    <button class="AddFriend"> 
+                        Add Friend
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

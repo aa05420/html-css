@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise 15e</title>
+        <style>
+            .image{
+                position:relative;
+                display: inline-block;
+            }
+            .discount{
+                background-color: black;
+                color:white;
+                position: absolute;
+                top:10px;
+                right:0px;
+                font-family: Arial;
+                padding: 10px;
+            }
+            .photo{
+                width: 300px;
+                height:300px;
+                object-fit: cover; 
+            }
+            .overlay{
+                position: absolute;
+                bottom:0;
+                left:0;
+                right:0;
+                height:80px;
+                background-color: rgba(255,255,255,0.8);
+                display: inline-block;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .addtocart{
+                background-color: white;
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                padding-top:4px;
+                padding-bottom:4px;
+                padding-left: 8px;
+                padding-right: 8px;
+        
+                
+               
+            }
+        </style>
+    </head>
+    <body style="height: 3000;">
+        <div class="image">
+            <img class="photo" src="pictures-exercise/cat2.jpg">
+            <div class="discount">
+                20% OFF
+            </div>
+            <div class="overlay">
+                <button class="addtocart"> Add to Cart </button>
+
+            </div>
+        </div>
+    </body>
+</html>
